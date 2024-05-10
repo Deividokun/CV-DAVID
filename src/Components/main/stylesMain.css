@@ -1,0 +1,71 @@
+main {
+  margin-top: 1.25rem;
+  width: 100%;
+}
+#theBigOneData {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#show {
+  width: 100%;
+  text-align: center;
+}
+#styleList {
+  display: flex;
+  gap: 0.9375rem;
+  flex-wrap: wrap;
+}
+
+#styleList li {
+  border-radius: 1.25rem;
+  background-color: bisque;
+  color: black;
+  padding: 0.625rem;
+  transition: transform 0.3s ease;
+}
+
+#styleList li:hover {
+  transform: scale(1.1);
+}
+img {
+  display: block; /* Para centrar la imagen */
+  margin: 0 auto; /* Para centrar la imagen horizontalmente */
+  width: 250px; /* Ancho deseado */
+  height: 250px; /* Altura deseada */
+  object-fit: cover; /* Para asegurar que la imagen se ajuste dentro del contenedor manteniendo su relación de aspecto */
+  border-radius: 50%; /* Bordes redondeados */
+}
+/* p {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+} */
+button {
+  margin-top: 1.25rem;
+  padding: 15px;
+  border-radius: 1.25rem;
+  cursor: pointer;
+  background-color: antiquewhite;
+  font-weight: bolder;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffc107;
+  color: rgb(0, 0, 0);
+}
+
+.changeBoton {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.descriptionOf {
+  width: 50%;
+}

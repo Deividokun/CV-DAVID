@@ -1,0 +1,42 @@
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+}
+#Principal {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Dtalinks {
+  width: 60%;
+}
+.list_dates {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+li {
+  list-style: none;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  color: white; /* Color inicial del texto */
+}
+
+a[href^='#'] {
+  color: black; /* Cambia el color inicial del texto de los enlaces de anclaje */
+  transition: color 0.3s ease;
+}
+
+a[href^='#']:hover {
+  color: #c31212;
+  font-weight: bolder;
+}

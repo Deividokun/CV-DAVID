@@ -1,0 +1,61 @@
+.project {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.projects {
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  justify-content: start;
+  align-items: stretch;
+  text-align: start;
+}
+p {
+  text-align: left;
+  font-weight: bolder;
+}
+.alife_data {
+  width: 100%;
+  height: auto;
+}
+h3 {
+  text-align: center;
+}
+a {
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 768px) {
+  .project {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 3.125rem;
+  }
+  .projects {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: center;
+    text-align: start;
+  }
+  .projects > p {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+  }
+}
